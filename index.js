@@ -10,7 +10,7 @@ app.use(cookieParser());
 
 const Proxies = [
     { 'text': 'web1', 'path': 'test', 'proxy': createProxyMiddleware({ target: 'http://192.168.1.1', changeOrigin: true }) },
-    { 'text': 'web2', 'path': 'openwrt', 'proxy': createProxyMiddleware({ target: 'http://192.168.2.1', changeOrigin: true }), 'token': '1127' },
+    { 'text': 'web2', 'path': 'openwrt', 'proxy': createProxyMiddleware({ target: 'http://192.168.2.1', changeOrigin: true }), 'token': '0000' },
 ]
 
 const Tokens = {};
